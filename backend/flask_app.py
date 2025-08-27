@@ -7,7 +7,7 @@ app = Flask(__name__)
 CORS(app)
 
 # ✅ Global storage directory (change this once, applies everywhere)
-STORAGE_DIR = r"C:/Users/ainba/Downloads/aws frontend/my-react-vite-app/backend"
+STORAGE_DIR = r"Storage Directory"
 
 # Make sure directory exists
 os.makedirs(STORAGE_DIR, exist_ok=True)
@@ -59,3 +59,4 @@ def main1():
 
 if __name__ == '__main__':
     app.run(debug=True)
+
