@@ -60,15 +60,10 @@
 
 ## 🚀 Future Enhancements
 
-Store reports in S3 for durability & auditing
-
-Replace static CSV with direct form entry in UI
-
-Use AWS Secrets Manager for password handling
-
-Enable bulk rollback if failures occur
-
+- ☁️ **Expand to Multiple Cloud Services** – Extend automation beyond AWS to services like S3, EC2, and more, enabling cross-cloud resource management.  
+- 🤖 **Multiple Automation Types** – Automate not just IAM users and groups, but also storage provisioning, policy enforcement, and other cloud tasks using natural language commands.  
+- 🗣️ **Voice & NLP Interaction** – Manage cloud resources using plain English or voice commands, making automation more intuitive and accessible.  
 ---
 
-## ✍️ Author: Inbaselvan Ayyanar (CSE)
+## ✍️ Author: Inbaselvan Ayyanar 
 ## Gmail : a.inbaselvan@gmail.com
