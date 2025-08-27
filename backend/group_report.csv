@@ -1,0 +1,3 @@
+S3FileUploader,Allows users to upload and manage files in specific Amazon S3 buckets.,Policy Updated/Created,arn:aws:iam::247513676255:group/S3FileUploader
+DataAnalystReadOnly,Grants read-only access to data in services like S3 DynamoDB and CloudWatch.,Policy Updated/Created,arn:aws:iam::247513676255:group/DataAnalystReadOnly
+EC2Operator,"Allows users to start, stop, and view Amazon EC2 instances.",Policy Updated/Created,arn:aws:iam::247513676255:group/EC2Operator
