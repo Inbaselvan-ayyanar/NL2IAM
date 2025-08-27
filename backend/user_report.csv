@@ -1,0 +1,3 @@
+user001,S3FileUploader,Welcome*ToAWS,User Created/Updated,arn:aws:iam::247513676255:user/user001
+user003,EC2Operator,Welcome*ToAWS,User Created/Updated,arn:aws:iam::247513676255:user/user003
+user004,NotificationSender,Welcome*ToAWS,User not created,
