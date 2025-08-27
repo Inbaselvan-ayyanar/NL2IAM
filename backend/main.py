@@ -5,7 +5,7 @@ from botocore.exceptions import ClientError
 import json
 import report
 import os
-STORAGE_DIR = r"C:/Users/ainba/Downloads/aws frontend/my-react-vite-app/backend"
+STORAGE_DIR = r"Storage Directory"
 
 # Make sure directory exists
 os.makedirs(STORAGE_DIR, exist_ok=True)
@@ -145,6 +145,7 @@ def create_aws_user_Boto(ID, groupName):
         [user_name, groupName, password, "User Created/Updated", user_arn],
         "user_report"
     )
+
 
 
 
