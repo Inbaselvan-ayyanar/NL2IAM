@@ -1,7 +1,7 @@
 import csv
 import os
 
-STORAGE_DIR = r"C:/Users/ainba/Downloads/aws frontend/my-react-vite-app/backend"
+STORAGE_DIR = r"Storage Directory"
 
 def update_data(data, type):
     # Ensure backend directory exists
@@ -14,5 +14,6 @@ def update_data(data, type):
     with open(file_path, "a", newline="", encoding="utf-8") as file:
         writer = csv.writer(file)
         writer.writerow(data)
+
 
 
